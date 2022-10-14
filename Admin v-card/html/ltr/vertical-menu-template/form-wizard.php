@@ -115,9 +115,30 @@
                             <div class="line">
                                 <i data-feather="chevron-right" class="font-medium-2"></i>
                             </div>
-                            <div class="step" data-target="#social-links" role="tab" id="social-links-trigger">
+
+
+
+
+                            <div class="step" data-target="#gallery-details" role="tab" id="gallery-details-trigger">
                                 <button type="button" class="step-trigger">
                                     <span class="bs-stepper-box">4</span>
+                                    <span class="bs-stepper-label">
+                                        <span class="bs-stepper-title">Gallery Details</span>
+                                        <span class="bs-stepper-subtitle">Setup Gallery Photo</span>
+                                    </span>
+                                </button>
+                            </div>
+                            <div class="line">
+                                <i data-feather="chevron-right" class="font-medium-2"></i>
+                            </div>
+
+
+
+
+
+                            <div class="step" data-target="#social-links" role="tab" id="social-links-trigger">
+                                <button type="button" class="step-trigger">
+                                    <span class="bs-stepper-box">5</span>
                                     <span class="bs-stepper-label">
                                         <span class="bs-stepper-title">Social Links</span>
                                         <span class="bs-stepper-subtitle">Add Social Links</span>
@@ -126,6 +147,8 @@
                             </div>
                         </div>
                         <div class="bs-stepper-content">
+
+
                             <div id="account-details" class="content" role="tabpanel" aria-labelledby="account-details-trigger">
                                 <div class="content-header">
                                     <h5 class="mb-0">Account Details</h5>
@@ -160,6 +183,10 @@
                                     </button>
                                 </div>
                             </div>
+
+
+
+
                             <div id="personal-info" class="content" role="tabpanel" aria-labelledby="personal-info-trigger">
                                 <div class="content-header">
                                     <h5 class="mb-0">Personal Info</h5>
@@ -208,6 +235,10 @@
                                     </button>
                                 </div>
                             </div>
+
+
+
+
                             <div id="address-step" class="content" role="tabpanel" aria-labelledby="address-step-trigger">
                                 <div class="content-header">
                                     <h5 class="mb-0">Address</h5>
@@ -247,6 +278,106 @@
                                     </button>
                                 </div>
                             </div>
+
+
+
+
+                            <div id="gallery-details" class="content" role="tabpanel" aria-labelledby="gallery-details-trigger">
+                                <div class="content-header">
+                                    <h5 class="mb-0">Gallery</h5>
+                                    <small class="text-muted">Upload the Gallery Photo.</small>
+                                </div>
+                                <form>
+                                    <div class="row">
+                                       <div class="row">
+                                            <div class="mb-1 col-md-6">
+                                            <label class="form-label" for="gallery">Gallery</label>
+                                            <input type="file" name="gallery" id="gallery" class="form-control"/>
+                                            </div>
+                                        </div>
+
+
+                                         <div class="row">
+                                            <div class="mb-1 col-md-6">
+                                            <label class="form-label" for="gallery">Gallery</label>
+                                            <input type="file" name="gallery" id="gallery" class="form-control"/>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="mb-1 col-md-6">
+                                            <label class="form-label" for="gallery">Gallery</label>
+                                            <input type="file" name="gallery" id="gallery" class="form-control"/>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="mb-1 col-md-6">
+                                            <label class="form-label" for="gallery">Gallery</label>
+                                            <input type="file" name="gallery" id="gallery" class="form-control"/>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="row">
+                                            <div class="mb-1 col-md-6">
+                                            <label class="form-label" for="gallery">Gallery</label>
+                                            <input type="file" name="gallery" id="gallery" class="form-control"/>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="mb-1 col-md-6">
+                                            <label class="form-label" for="gallery">Gallery</label>
+                                            <input type="file" name="gallery" id="gallery" class="form-control"/>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="mb-1 col-md-6">
+                                            <label class="form-label" for="gallery">Gallery</label>
+                                            <input type="file" name="gallery" id="gallery" class="form-control"/>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="mb-1 col-md-6">
+                                            <label class="form-label" for="gallery">Gallery</label>
+                                            <input type="file" name="gallery" id="gallery" class="form-control"/>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="mb-1 col-md-6">
+                                            <label class="form-label" for="gallery">Gallery</label>
+                                            <input type="file" name="gallery" id="gallery" class="form-control"/>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="mb-1 col-md-6">
+                                            <label class="form-label" for="gallery">Gallery</label>
+                                            <input type="file" name="gallery" id="gallery" class="form-control"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                <div class="d-flex justify-content-between">
+                                    <button class="btn btn-outline-secondary btn-prev" disabled>
+                                        <i data-feather="arrow-left" class="align-middle me-sm-25 me-0"></i>
+                                        <span class="align-middle d-sm-inline-block d-none">Previous</span>
+                                    </button>
+                                    <button class="btn btn-primary btn-next">
+                                        <span class="align-middle d-sm-inline-block d-none">Next</span>
+                                        <i data-feather="arrow-right" class="align-middle ms-sm-25 ms-0"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+
+
+
+
                             <div id="social-links" class="content" role="tabpanel" aria-labelledby="social-links-trigger">
                                 <div class="content-header">
                                     <h5 class="mb-0">Social Links</h5>
