@@ -134,22 +134,18 @@
                                 <form>
                                     <div class="row">
                                         <div class="mb-1 col-md-6">
-                                            <label class="form-label" for="username">Username</label>
-                                            <input type="text" name="username" id="username" class="form-control" placeholder="johndoe" />
+                                            <label class="form-label" for="username">Name</label>
+                                            <input type="text" name="name" id="name" class="form-control" placeholder="Enter Name" />
                                         </div>
                                         <div class="mb-1 col-md-6">
                                             <label class="form-label" for="email">Email</label>
-                                            <input type="email" name="email" id="email" class="form-control" placeholder="john.doe@email.com" aria-label="john.doe" />
+                                            <input type="email" name="email" id="email" class="form-control" placeholder="Enter Email" aria-label="john.doe" />
                                         </div>
                                     </div>
                                     <div class="row">
                                         <div class="mb-1 form-password-toggle col-md-6">
-                                            <label class="form-label" for="password">Password</label>
-                                            <input type="password" name="password" id="password" class="form-control" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" />
-                                        </div>
-                                        <div class="mb-1 form-password-toggle col-md-6">
-                                            <label class="form-label" for="confirm-password">Confirm Password</label>
-                                            <input type="password" name="confirm-password" id="confirm-password" class="form-control" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" />
+                                            <label class="form-label" for="mobileNo">Mobile No</label>
+                                            <input type="tel" name="mobileNo" id="mobileNo" class="form-control" placeholder="Enter Mobile No" />
                                         </div>
                                     </div>
                                 </form>
@@ -172,35 +168,33 @@
                                 <form>
                                     <div class="row">
                                         <div class="mb-1 col-md-6">
-                                            <label class="form-label" for="first-name">First Name</label>
-                                            <input type="text" name="first-name" id="first-name" class="form-control" placeholder="John" />
+                                            <label class="form-label" for="whatsApp">WhatsApp No</label>
+                                            <input type="number" name="whatsApp" id="whatsApp" class="form-control" placeholder="Enter WhatsApp No" required/>
                                         </div>
                                         <div class="mb-1 col-md-6">
-                                            <label class="form-label" for="last-name">Last Name</label>
-                                            <input type="text" name="last-name" id="last-name" class="form-control" placeholder="Doe" />
+                                            <label class="form-label" for="designation">Designation</label>
+                                            <select class="select2 w-100" name="designation" id="designation" multiple>
+                                                <option>Developer</option>
+                                                <option>Softwer Engineer</option>
+                                                <option>Coder</option>
+                                            </select>
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="mb-1 col-md-6">
-                                            <label class="form-label" for="country">Country</label>
-                                            <select class="select2 w-100" name="country" id="country">
-                                                <option label=" "></option>
-                                                <option>UK</option>
-                                                <option>USA</option>
-                                                <option>Spain</option>
-                                                <option>France</option>
-                                                <option>Italy</option>
-                                                <option>Australia</option>
-                                            </select>
+                                    <div class="mb-1 col-md-6">
+                                            <label class="form-label" for="website">Website</label>
+                                            <input type="text" name="website" id="website" class="form-control" placeholder="" />
                                         </div>
-                                        <div class="mb-1 col-md-6">
-                                            <label class="form-label" for="language">Language</label>
-                                            <select class="select2 w-100" name="language" id="language" multiple>
-                                                <option>English</option>
-                                                <option>French</option>
-                                                <option>Spanish</option>
-                                            </select>
+                                     <div class="mb-1 col-md-6">
+                                            <label class="form-label" for="profilePhoto">Profile Photo</label>
+                                            <input type="file" name="profilePhoto" id="profilePhoto" class="form-control"/>
                                         </div>
+
+                                        <div class="mb-1 col-md-6">
+                                            <label class="form-label" for="CompanyLogo">Company Logo</label>
+                                            <input type="file" name="companyLogo" id="companyLogo" class="form-control" />
+                                        </div>
+                                       
                                     </div>
                                 </form>
                                 <div class="d-flex justify-content-between">
@@ -221,25 +215,26 @@
                                 </div>
                                 <form>
                                     <div class="row">
-                                        <div class="mb-1 col-md-6">
-                                            <label class="form-label" for="address">Address</label>
-                                            <input type="text" id="address" name="address" class="form-control" placeholder="98  Borough bridge Road, Birmingham" />
+                                     <div class="mb-1 col-md-6">
+                                            <label class="form-label" for="services">Services</label>
+                                            <textarea class="form-control" id="services" name="services" rows="3"></textarea>
                                         </div>
+                                    
+
                                         <div class="mb-1 col-md-6">
-                                            <label class="form-label" for="landmark">Landmark</label>
-                                            <input type="text" name="landmark" id="landmark" class="form-control" placeholder="Borough bridge" />
+                                            <label class="form-label" for="aboutUs">About Us</label>
+                                            <textarea class="form-control" id="aboutUs" name="aboutUs" rows="3"></textarea>
+                                        </div>
+
+                                       <div class="row">
+                                            <div class="mb-1 col-md-6">
+                                            <label class="form-label" for="gallery">Gallery</label>
+                                            <input type="file" name="gallery" id="gallery" class="form-control"/>
+                                            </div>
+                                        
                                         </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="mb-1 col-md-6">
-                                            <label class="form-label" for="pincode1">Pincode</label>
-                                            <input type="text" id="pincode1" class="form-control" placeholder="658921" />
-                                        </div>
-                                        <div class="mb-1 col-md-6">
-                                            <label class="form-label" for="city1">City</label>
-                                            <input type="text" id="city1" class="form-control" placeholder="Birmingham" />
-                                        </div>
-                                    </div>
+                                
                                 </form>
                                 <div class="d-flex justify-content-between">
                                     <button class="btn btn-primary btn-prev">
@@ -260,8 +255,8 @@
                                 <form>
                                     <div class="row">
                                         <div class="mb-1 col-md-6">
-                                            <label class="form-label" for="twitter">Twitter</label>
-                                            <input type="text" id="twitter" name="twitter" class="form-control" placeholder="https://twitter.com/abc" />
+                                            <label class="form-label" for="instagram">instagram</label>
+                                            <input type="text" id="instagram" name="instagram" class="form-control" placeholder="https://instagram.com/abc" />
                                         </div>
                                         <div class="mb-1 col-md-6">
                                             <label class="form-label" for="facebook">Facebook</label>
@@ -270,8 +265,8 @@
                                     </div>
                                     <div class="row">
                                         <div class="mb-1 col-md-6">
-                                            <label class="form-label" for="google">Google+</label>
-                                            <input type="text" id="google" name="google" class="form-control" placeholder="https://plus.google.com/abc" />
+                                            <label class="form-label" for="youtube">Youtube</label>
+                                            <input type="text" id="youtube" name="youtube" class="form-control" placeholder="https://youtube.com/abc" />
                                         </div>
                                         <div class="mb-1 col-md-6">
                                             <label class="form-label" for="linkedin">Linkedin</label>
@@ -284,7 +279,7 @@
                                         <i data-feather="arrow-left" class="align-middle me-sm-25 me-0"></i>
                                         <span class="align-middle d-sm-inline-block d-none">Previous</span>
                                     </button>
-                                    <button class="btn btn-success btn-submit">Submit</button>
+                                    <button class="btn btn-success btn-submit">Update</button>
                                 </div>
                             </div>
                         </div>
